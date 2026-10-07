@@ -23,6 +23,9 @@
 <li>Videos and metadata are sent only to YouTube, at the user's request.</li>
 </ul>
 
+<h2>Data deletion</h2>
+<p>uploader does not keep any copy of YouTube data. The only stored item is the OAuth token on the user's own computer. To delete it, remove the token file (youtube_token.json) from the program folder, or revoke access as described below; Google then deletes the authorization. Upload records kept next to the user's own video files (uploaded.json) contain only video IDs and titles and can be deleted at any time by deleting that file.</p>
+
 <h2>Revoking access</h2>
 <p>You can revoke uploader's access at any time at <a href="https://myaccount.google.com/permissions">Google Account permissions</a>. Deleting the local token file also removes access from the computer.</p>
 
